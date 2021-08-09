@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=3">
+  <meta http-equiv="cleartype" content="on">
+  <title>Technology | Web</title>
+  <link rel="stylesheet" href="src/styles/typesettings.css">
+  <meta name="description" content="Mix and match fonts, colors, and spacing to create your own Typesettings.">
+</head>
+
+<body>
+  <a href="#content">
+    Skip to content
+  </a>
+  <div data-typesettings="golden">
+    <nav>
+      <ul>
+        <li>
+          <h1>
+            <a href="index.html">Home</a> &raquo; <a href="technology.html"
+              aria-current="page">Technology</a>
+          </h1>
+        </li>
+        
+      </ul>
+    </nav>
+    <main id="content">
+      <article>
+        <header>
+          <h1 role="presentation">
+            Google demonstrates vital step towards large-scale quantum computers
+          </h1>
+        </header>
+        <section>
+          <img src="googlejpg.jpg" alt="Google">
+          <p>
+            Google has shown that its Sycamore quantum computer can detect and fix computational errors, an essential
+            step for large-scale quantum computing, but its current system generates more errors than it solves.
+          </p>
+          <p>
+            Error-correction is a standard feature for ordinary, or classical, computers, which store data using bits
+            with two possible states: 0 and 1. Transmitting data with extra “parity bits” that warn if a 0 has flipped
+            to 1, or vice versa, means such errors can be found and fixed.
+          </p>
+          <p>
+            In quantum computing the problem is far more complex as each quantum bit, or qubit, exists in a mixed state
+            of 0 and 1, and any attempt to measure them directly destroys the data. One longstanding theoretical
+            solution to this has been to cluster many physical qubits into a single “logical qubit”. Although such
+            logical qubits have been created previously, they hadn’t been used for error correction until now.
+          </p>
+          <p>
+            Julian Kelly at Google AI Quantum and his colleagues have demonstrated the concept on Google’s Sycamore
+            quantum computer, with logical qubits ranging in size from five to 21 physical qubits, and found that
+            logical qubit error rates dropped exponentially for each additional physical qubit. The team was able to
+            make careful measurements of the extra qubits that didn’t collapse their state but, when taken collectively,
+            still gave enough information to deduce whether errors had occurred.
+          </p>
+          <p>
+            Kelly says that this means it is possible to create practical, reliable quantum computers in the future.
+            “This is basically our first half step along the path to demonstrate that,” he says. “A viable way of
+            getting to really large-scale, error-tolerant computers. It’s sort of a look ahead for the devices that we
+            want to make in the future.”
+          </p>
+          <p>
+            The team has managed to demonstrate this solution conceptually but a vast engineering challenge remains.
+            Adding more qubits to each logical qubit brings its own problems as each physical qubit is itself
+            susceptible to errors. The chance of a logical qubit encountering an error rises as the number of qubits
+            inside it increases.
+          </p>
+          <p>
+            There is a breakeven point in this process, known as the threshold, where the error correction features
+            catch more problems than the increase in qubits bring. Crucially, Google’s error correction doesn’t yet meet
+            the threshold. To do so will require less noisy physical qubits that encounter fewer errors and larger
+            numbers of them devoted to each logical qubit. The team believes that mature quantum computers will need
+            1000 qubits to make each logical qubit – Sycamore currently has just 54 physical qubits.
+          </p>
+          <p>Peter Knight at Imperial College London says Google’s research is progress towards something essential for
+            future quantum computers. “If we couldn’t do this we’re not going to have a large scale machine,” he says.
+            “I applaud the fact they’ve done it, simply because without this, without this advance, you will still have
+            uncertainty about whether the roadmap towards fault tolerance was feasible. They removed those doubts.”
+          </p>
+          <p>
+            But he says it will be a vast engineering challenge to actually meet the threshold and build effective error
+            correction, which would mean building a processor with many more qubits than has been demonstrated until
+            now.
+          </p>
+          <main id="content">
+            <article>
+              <header>
+                <h1 role="presentation">
+                  Check Out Our Other Articles
+                </h1>
+              </header>
+              <section>
+                <ol>
+                  <li>
+                    <a href="index.html">Google Pixel 6 to have new AI Tensor chip</a>
+                  </li>
+                  <li>
+                    <a href="science.html">NASA has selected SpaceX to build a lander to take humans to the moon</a>
+                  </li>
+                  <li>
+                    <a href="technology.html">Google demonstrates vital step towards large-scale quantum
+                      computers</a>
+                  </li>
+                  <li>
+                    <a href="sports.html">Japan extends emergency measures as covid-19 spikes during Olympics</a>
+                  </li>
+                  
+                </ol>
+              </section>
+        </section>
+      </article>
+    </main>
+    </section>
+    </article>
+    </main>
+  </div>
+</body>
+
+</html>
